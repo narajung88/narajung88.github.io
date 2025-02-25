@@ -1,75 +1,59 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://monumental-chimera-b1ace3.netlify.app/`,
+    siteUrl: `https://narajung88.github.io`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Nara Jung',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Nara Jung | Aspring ASIC Design Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `I am an undergraduate CompE student at Northwestern with a passion for hardware design and development.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: ``,
     // Optional: Github account URL
-    github: `https://github.com/RyanFitzgerald`,
+    github: `https://github.com/narajung88`,
     // Optional: LinkedIn account URL
-    linkedin: `https://github.com/RyanFitzgerald/devfolio`,
+    linkedin: `https://www.linkedin.com/in/njung/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hi, I'm Nara Jung, a passionate and driven Computer Engineering student at Northwestern University. With a strong foundation in hardware and software, I thrive at the intersection of innovation and problem-solving. My journey has led me through exciting projects like designing PCBs for NU Solar Car Team, building a motorized tubing reel for efficiency, and creating a film camera shutter speed tester from scratch.Beyond engineering, I have a keen eye for photography—whether capturing moments through my lens as a professional photographer or leading creative initiatives. My interests also extend to mechanical keyboards, PC building, and violin performance. Currently, I'm expanding my expertise as an undergraduate researcher at the VAK Sustainable Computing Lab, where I explore FPGA and ASIC design for intermittent, edge computing. Whether it's developing hardware, coding efficient solutions, or crafting compelling visuals, I love bringing ideas to life through a mix of creativity and technical skill.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'NUSolar Car Team Priority Power MUX',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'As part of the NU Solar Car Team, I developed a Priority Power Multiplexer (MUX) with ideal diode controllers, a crucial component for efficient power management in our solar-powered vehicle. This PCB enables highly efficient power switching between multiple power sources, ensuring optimal energy distribution while minimizing voltage drop and heat dissipation.',
+        link: '',
       },
       {
-        name: 'ExtensionKit',
+        name: 'Oximatic',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://extensionkit.io/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Oximatic is a motorized tubing reel designed to streamline the process of retracting and releasing medical oxygen tubing. This innovative device operates at 25 feet per minute, making it 150-200% faster than traditional manual methods. By automating this task, Oximatic improves efficiency and reduces trip hazards for users in medical and home care environments.',
+        link: 'https://sites.google.com/u.northwestern.edu/2024fq-dtc-sec-11-team-1/executive-summary',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'VAK Sustainable Computing Lab',
+        description: 'Undergraduate Researcher, October 2024 - Present',
+        link: 'https://vaksustainablecomputing.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Panera Bread',
+        description: 'Team Lead, October 2022 - June 2024',
+        link: '',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Languages',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python, MATLAB, Verilog, Assembly, Java',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        name: 'Applications',
+        description: 'Altium, Onshape, AutoCAD, MS Office',
       },
     ],
   },
